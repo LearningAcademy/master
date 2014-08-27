@@ -1,0 +1,38 @@
+Good Learning of JavaScript:
+
+http://javascript.info/
+http://javascript.about.com/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+How Browser Works ?
+
+http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+
+DOM and BOM :
+
+http://javascript.about.com/od/byexample/a/Javascript-By-Example_2.htm
+http://code-tricks.com/javascripts-dom-vs-bom/
+http://javascript.info/tutorial/browser-environment
+
+Rendering Concepts:
+
+http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/
+https://www.webkit.org/blog/114/webcore-rendering-i-the-basics/
+
+Custom Events in JS:
+
+http://www.nczonline.net/blog/2010/03/09/custom-events-in-javascript/
+
+Write Memory Efficient JS:
+
+http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/
+
+Memory Allocation & profiling: 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management
+https://developer.chrome.com/devtools/docs/javascript-memory-profiling
+http://javascript.info/tutorial/memory-leaks
+
+Closures in JS : Advantages & Disadvantages :
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures
