@@ -1,0 +1,13 @@
+Knowledge Transfer / Learning Plan :
+
+September 1'14
+
+Bijoy : 
+	1) Event Handling
+	2) Custom Events
+	3) Different methods of writing a class in javaScript.
+	
+Praveen : 
+	1) How Browser works?
+	2) DOM and BOM
+	3) Memory allocation in javaScript
