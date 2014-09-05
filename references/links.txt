@@ -36,3 +36,5 @@ http://javascript.info/tutorial/memory-leaks
 Closures in JS : Advantages & Disadvantages :
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures
+https://developers.google.com/closure/compiler/docs/limitations
+
