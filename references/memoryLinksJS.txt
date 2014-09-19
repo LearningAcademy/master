@@ -1,0 +1,77 @@
+Chromium Developer Tools documentation reference:
+Memory Profiling:
+https://developer.chrome.com/devtools/docs/heap-profiling 
+
+CPU Profiling:
+https://developer.chrome.com/devtools/docs/cpu-profiling 
+
+Performance Profiling Using Timeline:
+https://developer.chrome.com/devtools/docs/timeline 
+
+Layout Thrashing:
+https://developer.chrome.com/devtools/docs/demos/too-much-layout 
+ 
+
+
+
+Understanding Layers in Browser context:
+
+Article on Accelerated Rendering using Layers - 
+http://www.html5rocks.com/en/tutorials/speed/layers/
+
+Article about the need for balancing memory usage when working with layers –
+http://aerotwist.com/blog/on-translate3d-and-layer-creation-hacks/ 
+
+List of reasons when a particular object is promoted as a layer (Blink specific):
+•	Composition due to association with an element with a CSS 3D transform.
+•	Composition due to association with a <video> element.
+•	Composition due to the element being a <canvas> element.
+•	Composition due to association with a plugin.
+•	Composition due to association with an <iframe> element.
+•	Composition due to association with an element with a "backface-visibility: hidden" style.
+•	Composition due to association with an animated element.
+•	Composition due to association with an element with CSS filters applied.
+•	Composition due to association with an element with a "position: fixed" style.
+•	Composition due to association with an element with a "position: sticky" style.
+•	Composition due to association with an element with a "overflow-scrolling: touch" style.
+•	Composition due to association with an element that has blend mode other than "normal".
+•	Composition due to association with an element that may overlap other composited elements.
+•	Composition due to association with an element overlapping other composited elements.
+•	Composition due to association with an element with descendants that have a negative z-index.
+•	Composition due to association with an element with composited descendants.
+•	Composition due to association with an element with opacity applied and composited descendants.
+•	Composition due to association with a masked element and composited descendants.
+•	Composition due to association with an element with a reflection and composited descendants.
+•	Composition due to association with an element with CSS filters applied and composited descendants.
+•	Composition due to association with an element with CSS blending applied and composited descendants.
+•	Composition due to association with an element clipping compositing descendants.
+•	Composition due to association with an element with perspective applied.
+•	Composition due to association with an element with a "transform-style: preserve-3d" style.
+•	Root layer.
+•	Layer for clip.
+•	Layer for scrollbar.
+•	Layer for scrolling container.
+•	Layer for foreground.
+•	Layer for background.
+•	Layer for mask.
+•	Layer for video overlay.
+
+
+Enabling Experimental DevTools Features in Chrome Browser (Desktop environment):
+1.	Open the Chrome Browser and Enable the experimental flag for getting additional DevTools features.  Type the following in URL box  chrome://flags/#enable-devtools-experiments and enable the flag.
+2.	Relaunch the Chrome Browser
+3.	Open the Developer Tools (inspector) and go to the “Settings” .  From the left panel, select “Experiments” and enable features you want to experiment.  The “Layers Panel” is great and helpful for evaluating the application layout from a runtime Layers perspective.
+4.	Close the Developer Tool after selection, and then open again to see the “Layers” panel available on the top bar.
+5.	Once in Layers Panel, you would see the wireframe.  Click or “Shift” + Click to move the perspective of the wireframe to see the layer hierarchy.  Double clicking on a specific layer would draw the content for that layer.  Right click and opt to reveal the associated element for a layer.
+
+
+
+Trying the experimental features in STB’s Remote DevTool ( not officially binding ? ):
+In the URL for the Inspector UI, add the following query string parameter – 
+•	experiments=true
+
+Example:
+http://10.197.0.156:9224/devtools/devtools.html?experiments=true&ws=10.197.0.156:9224/devtools/page/FB3414FC-CB45-66CD-BF45-4D9C0BA326A8
+
+After this follow the steps mentioned for Chrome Browser (from 3.) to enable features.
+
