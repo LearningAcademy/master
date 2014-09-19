@@ -38,3 +38,9 @@ Closures in JS : Advantages & Disadvantages :
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures
 https://developers.google.com/closure/compiler/docs/limitations
 
+CSS Vs Jquery and RequestAnimationFrame
+
+http://jsfiddle.net/ginpei/GdgYm/
+http://css3.bradshawenterprises.com/blog/jquery-vs-css3-transitions/
+https://dev.opera.com/articles/css3-vs-jquery-animations/
+http://css-tricks.com/using-requestanimationframe/
